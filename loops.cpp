@@ -45,22 +45,39 @@ int main () {
     // }
 
 // Above question with while loop
-    int num;
+    // int num;
+    // int i = 1;
+    // int sum = 0;
+    // cout << "Enter a number: ";
+    // cin >> num;
+    // cout << "Number is: " << num;
+    // while (i <= num) {
+    //     if (num % 2 != 0) {
+    //         sum = sum + i;
+    //     }
+    //     i++;
+    // }
+
+    // cout << "\nSum is: " << sum;
+
+// Do while loop
+    // int i = 1;
+    // int num = 4;
+    // int sum = 0;
+    // do {
+    //     cout << i << " ";
+    //     i++;
+    // } while( i < num);
+
+// Nested loops
+    int num = 3;
     int i = 1;
-    int sum = 0;
-    cout << "Enter a number: ";
-    cin >> num;
-    cout << "Number is: " << num;
-    while (i <= num) {
-        if (num % 2 != 0) {
-            sum = sum + i;
+    for (i = 1 ; i <= num; i++) {
+        int m = 5;
+        for (int j=1; j <= m; j++) {
+            cout << "*" << " ";
         }
-        i++;
+
+        cout << "\n";
     }
-
-    cout << "\nSum is: " << sum;
-
-    
-
-
 }
