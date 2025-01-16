@@ -98,5 +98,21 @@ output
 5 4 3 2 1 
 6 5 4 3 2 1
 */
+    char ch = 'z';
+    for (int i = 0; i <= n; i++) {
+        for( int j = i+1; j > 0; j--) {
+            cout << ch << " ";
+            ch--;
+        }
+        cout << endl;
+    }
+/* output 
+z
+y x
+w v u       
+t s r q     
+p o n m l   
+k j i h g f 
+*/
     return 0;
 }
